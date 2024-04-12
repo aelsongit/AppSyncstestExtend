@@ -33,7 +33,7 @@
               }
             ],
             "datasource": {
-              "name": "BirthData",
+              "name": "BankingData",
               "type": "table",
               "isReadOnly": false,
               "schema": "$framework",
@@ -46,19 +46,19 @@
             },
             "columns": [
               {
-                "field": "birth_id",
-                "name": "birth_id",
-                "headerName": "birth_id",
-                "dataType": "integer",
+                "field": "account_number",
+                "name": "account_number",
+                "headerName": "account_number",
+                "dataType": "long",
                 "editable": false,
                 "isPrimaryKey": false,
                 "formattingStyle": "default",
                 "sortable": false
               },
               {
-                "field": "full_name",
-                "name": "full_name",
-                "headerName": "full_name",
+                "field": "balance",
+                "name": "balance",
+                "headerName": "balance",
                 "dataType": "string",
                 "editable": false,
                 "isPrimaryKey": false,
@@ -66,9 +66,9 @@
                 "sortable": false
               },
               {
-                "field": "birth_date",
-                "name": "birth_date",
-                "headerName": "birth_date",
+                "field": "transaction_date",
+                "name": "transaction_date",
+                "headerName": "transaction_date",
                 "dataType": "date",
                 "editable": false,
                 "isPrimaryKey": false,
@@ -76,19 +76,9 @@
                 "sortable": false
               },
               {
-                "field": "emails",
-                "name": "emails",
-                "headerName": "emails",
-                "dataType": "string",
-                "editable": false,
-                "isPrimaryKey": false,
-                "formattingStyle": "default",
-                "sortable": false
-              },
-              {
-                "field": "location",
-                "name": "location",
-                "headerName": "location",
+                "field": "transaction_amount",
+                "name": "transaction_amount",
+                "headerName": "transaction_amount",
                 "dataType": "string",
                 "editable": false,
                 "isPrimaryKey": false,
