@@ -1,0 +1,22 @@
+[
+  {
+    "variables": [],
+    "savedInEditor": true,
+    "isValid": true,
+    "name": "aggregatefunc",
+    "description": null,
+    "id": "c1ac8e29decae1adfe75d33d4ac6b86b.ente20df83a497d44436fb087cad826a",
+    "xsql": "SELECT idval,fname,sum(decivalue) as sumDeci,sum(floatvalue) as sumFloat,sum(shortval) as sumShort FROM $framework.allTypes_data1 where idval between 2 and 10 group by fname order by idval asc",
+    "dependencies": []
+  },
+  {
+    "variables": [],
+    "savedInEditor": true,
+    "isValid": true,
+    "name": "nameUpdate",
+    "description": null,
+    "id": "edb48a9ae923a3e054e51526a5b5c1de.ente20df83a497d44436fb087cad826a",
+    "xsql": "select fname, sum(idval) as sumid from $framework.allTypes_data1 where fname in :v_lname",
+    "dependencies": []
+  }
+]
