@@ -7,6 +7,60 @@
       "schema": {
         "type": "object",
         "properties": {
+          "control_20": {
+            "type": "dropdown",
+            "controlId": "eafe3ba9-bc5d-4332-ac1b-3843fc29f506",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "eafe3ba9-bc5d-4332-ac1b-3843fc29f506",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "AddressInfo",
+              "type": "table",
+              "isReadOnly": false,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [],
+            "whereClauseVariable": null,
+            "variables": [],
+            "isMultiSelect": false,
+            "shouldHideLabel": false,
+            "displayField": {
+              "dataType": "string",
+              "name": "addressline1"
+            },
+            "valueField": {
+              "dataType": "string",
+              "name": "addressline1"
+            },
+            "labelText": "AddressINfo",
+            "layoutSize": null,
+            "shouldRenderHidden": false
+          },
           "control_1": {
             "type": "button",
             "controlId": "7447fae5-a6b5-433b-a0db-9a691356b538",
