@@ -693,60 +693,6 @@
             "helpIconTooltipPosition": "right",
             "shouldRenderHidden": false
           },
-          "control_18": {
-            "type": "dropdown",
-            "controlId": "153bb81d-edc3-4f4d-8618-1b9b54f2ab5b",
-            "accessRoles": null,
-            "privileges": null,
-            "styles": {
-              "useComponentShadow": false,
-              "useGreyBackground": false,
-              "useInnerGreyBackground": false
-            },
-            "events": [
-              {
-                "name": "$onPageLoad",
-                "eventSelection": "BIND_EVENT",
-                "id": "153bb81d-edc3-4f4d-8618-1b9b54f2ab5b",
-                "handlers": [
-                  "refresh"
-                ],
-                "handlerArgs": [
-                  {}
-                ],
-                "preHandlers": [],
-                "preHandlerArgs": []
-              }
-            ],
-            "datasource": {
-              "name": "Addressinfo",
-              "type": "table",
-              "isReadOnly": false,
-              "schema": "$framework",
-              "seriesColors": {}
-            },
-            "pagination": {
-              "currentPage": 1,
-              "totalItems": null,
-              "itemsPerPage": 200
-            },
-            "columns": [],
-            "whereClauseVariable": null,
-            "variables": [],
-            "isMultiSelect": false,
-            "shouldHideLabel": false,
-            "displayField": {
-              "dataType": "string",
-              "name": "addressline1"
-            },
-            "valueField": {
-              "dataType": "string",
-              "name": "addressline1"
-            },
-            "labelText": "Label",
-            "layoutSize": null,
-            "shouldRenderHidden": false
-          },
           "control_3": {
             "type": "modal",
             "controlId": "147061e5-4579-4b2d-952f-1e0491009ec7",
