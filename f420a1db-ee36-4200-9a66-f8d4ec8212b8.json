@@ -52,7 +52,7 @@
               "name": "airport_id"
             },
             "usingMultiSelectVariableFormat": false,
-            "title": "Variable Configurator",
+            "title": "AirportDataDefaults",
             "staticValue": "",
             "useStaticValue": false,
             "staticDataType": "STRING"
