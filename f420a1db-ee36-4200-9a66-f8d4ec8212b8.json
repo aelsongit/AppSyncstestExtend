@@ -719,7 +719,7 @@
               }
             ],
             "datasource": {
-              "name": "dropdown",
+              "name": "Addressinfo",
               "type": "table",
               "isReadOnly": false,
               "schema": "$framework",
