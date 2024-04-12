@@ -7,6 +7,101 @@
       "schema": {
         "type": "object",
         "properties": {
+          "control_19": {
+            "type": "ConditionBuilder",
+            "controlId": "ae0f2cef-3346-4bad-95b6-18995f7d1207",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "ae0f2cef-3346-4bad-95b6-18995f7d1207",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "BirthData",
+              "type": "table",
+              "isReadOnly": false,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [
+              {
+                "field": "birth_id",
+                "name": "birth_id",
+                "headerName": "birth_id",
+                "dataType": "integer",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "full_name",
+                "name": "full_name",
+                "headerName": "full_name",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "birth_date",
+                "name": "birth_date",
+                "headerName": "birth_date",
+                "dataType": "date",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "emails",
+                "name": "emails",
+                "headerName": "emails",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "location",
+                "name": "location",
+                "headerName": "location",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              }
+            ],
+            "whereClauseVariable": null,
+            "variables": [],
+            "layoutSize": null,
+            "title": "CB filter",
+            "shouldRenderHidden": false
+          },
           "control_1": {
             "type": "button",
             "controlId": "7447fae5-a6b5-433b-a0db-9a691356b538",
