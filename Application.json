@@ -8,6 +8,18 @@
     "description": "AppAssetsSyncupScenarios",
     "gitUrl": "https://github.com/aelsongit/AppSyncstestExtend",
     "icon": "LogoIconOnlyAnalyticsComponent",
-    "sections": []
+    "sections": [
+      {
+        "accessRoles": [
+          "Xactly"
+        ],
+        "privileges": null,
+        "name": "section3",
+        "icon": "Alert Circle",
+        "pageDefinitionId": "f420a1db-ee36-4200-9a66-f8d4ec8212b8",
+        "description": "asdsad",
+        "sections": []
+      }
+    ]
   }
 ]
