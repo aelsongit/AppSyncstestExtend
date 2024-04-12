@@ -1,0 +1,13 @@
+[
+  {
+    "accessRoles": [],
+    "applicationId": "8536aff3-e61c-4b49-b169-460a81596bed",
+    "applicationName": "AppAssetsSyncupScenarios",
+    "applicationState": "DRAFT",
+    "defaultBranch": "main",
+    "description": "AppAssetsSyncupScenarios",
+    "gitUrl": "https://github.com/aelsongit/AppSyncstestExtend",
+    "icon": "LogoIconOnlyAnalyticsComponent",
+    "sections": []
+  }
+]
