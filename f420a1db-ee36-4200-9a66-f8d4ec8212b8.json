@@ -7,6 +7,56 @@
       "schema": {
         "type": "object",
         "properties": {
+          "control_19": {
+            "type": "variableConfigurator",
+            "controlId": "895de7aa-9e04-438a-93db-72985eaf6cae",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "895de7aa-9e04-438a-93db-72985eaf6cae",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "Airport_Data",
+              "type": "table",
+              "isReadOnly": false,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [],
+            "whereClauseVariable": null,
+            "variables": [],
+            "valueField": {
+              "dataType": "integer",
+              "name": "airport_id"
+            },
+            "usingMultiSelectVariableFormat": false,
+            "title": "Variable Configurator",
+            "staticValue": "",
+            "useStaticValue": false,
+            "staticDataType": "STRING"
+          },
           "control_1": {
             "type": "button",
             "controlId": "7447fae5-a6b5-433b-a0db-9a691356b538",
