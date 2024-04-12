@@ -719,7 +719,7 @@
               }
             ],
             "datasource": {
-              "name": "AddressInfo",
+              "name": "dropdown",
               "type": "table",
               "isReadOnly": false,
               "schema": "$framework",
@@ -737,11 +737,11 @@
             "shouldHideLabel": false,
             "displayField": {
               "dataType": "string",
-              "name": "name"
+              "name": "model"
             },
             "valueField": {
               "dataType": "string",
-              "name": "addressline1"
+              "name": "make"
             },
             "labelText": "Label",
             "layoutSize": null,
