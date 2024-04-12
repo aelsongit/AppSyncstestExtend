@@ -737,11 +737,11 @@
             "shouldHideLabel": false,
             "displayField": {
               "dataType": "string",
-              "name": "model"
+              "name": "addressline1"
             },
             "valueField": {
               "dataType": "string",
-              "name": "make"
+              "name": "addressline1"
             },
             "labelText": "Label",
             "layoutSize": null,
