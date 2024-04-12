@@ -396,6 +396,52 @@
             "useEnterBroadcast": false,
             "shouldRenderHidden": false
           },
+          "control_17": {
+            "type": "radioButton",
+            "controlId": "9e58deff-00f8-4fe7-ab16-06eaaf9b5db9",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "9e58deff-00f8-4fe7-ab16-06eaaf9b5db9",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "MultisyncQuery",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [],
+            "whereClauseVariable": null,
+            "variables": [],
+            "label": "MultiLevelQueres",
+            "displayField": "airport_id",
+            "valueField": "airport_county",
+            "layoutSize": null,
+            "shouldRenderHidden": false
+          },
           "control_2": {
             "type": "table",
             "controlId": "8ef8d47c-65c7-4ada-9c28-cb96319f8fe0",
