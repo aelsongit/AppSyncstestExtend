@@ -23,34 +23,10 @@
     "variables": [],
     "savedInEditor": true,
     "isValid": true,
-    "name": "multisetquery",
+    "name": "newdataloadfromSFTP",
     "description": null,
-    "id": "477591428da8cb8de0c1dcee759a095a.ente20df83a497d44436fb087cad826a",
-    "xsql": "SELECT airport_id,airport_county,airport_region FROM $framework.Airport_Data order by airport_id",
+    "id": "f71657b943b7ba68ef808ab442b3b47d.ente20df83a497d44436fb087cad826a",
+    "xsql": "select last,descrt from ReadFile(FilePath='/nova/test/alldataloads.csv', FirstLineNames=true, Separator=',', Quote='\"') limit 5; ",
     "dependencies": []
-  },
-  {
-    "variables": [],
-    "savedInEditor": true,
-    "isValid": true,
-    "name": "multilevelquery",
-    "description": null,
-    "id": "11fe78199cbd0d5d331c12421f4485f1.ente20df83a497d44436fb087cad826a",
-    "xsql": "select * from multisetquery limit 20",
-    "dependencies": [
-      "multisetquery"
-    ]
-  },
-  {
-    "variables": [],
-    "savedInEditor": true,
-    "isValid": true,
-    "name": "MultisyncQuery",
-    "description": null,
-    "id": "14d9422c2b7453d2be1802ed032a01f8.ente20df83a497d44436fb087cad826a",
-    "xsql": "select * from multilevelquery where airport_county like '%B%'",
-    "dependencies": [
-      "multilevelquery"
-    ]
   }
 ]
