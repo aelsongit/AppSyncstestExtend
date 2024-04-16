@@ -15,9 +15,7 @@
         "pageDefinitionId": "f420a1db-ee36-4200-9a66-f8d4ec8212b8",
         "description": "asdsad",
         "sections": [],
-        "accessRoles": [
-          "Xactly"
-        ],
+        "accessRoles": [],
         "privileges": null
       }
     ]
