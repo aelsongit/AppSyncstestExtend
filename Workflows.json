@@ -1,1 +1,67 @@
-[]
+[
+  {
+    "Rules": [],
+    "Methods": [],
+    "XFlow": {
+      "Name": "New Workflow for data insert",
+      "Version": 8,
+      "Description": "",
+      "START_NODE": {
+        "Node_Name": "Start",
+        "Destination": "4eff0ba9-690d-4f08-84b5-200ead6436f5",
+        "Destination_Type": "DECISION_NODE"
+      },
+      "STOP_NODE": {
+        "Node_Name": "Stop",
+        "Source": "e2800971-6763-45d3-9e26-8318aa873e01, 68ebc476-f199-4bc4-bf0b-22f96819f30b",
+        "Source_Type": "EXECUTION_NODE, EXECUTION_NODE"
+      },
+      "DECISION_NODE": {
+        "Node_Name": "4eff0ba9-690d-4f08-84b5-200ead6436f5",
+        "Description": "Decision",
+        "TrueDestination": {
+          "Rule": {
+            "Expression": "select ToDate(:birth_date_var) < 1990-01-01",
+            "Result": "true"
+          },
+          "Destination": "e2800971-6763-45d3-9e26-8318aa873e01",
+          "Destination_Type": "EXECUTION_NODE"
+        },
+        "FalseDestination": {
+          "Rule": {
+            "Expression": "select ToDate(:birth_date_var) < 1990-01-01",
+            "Result": "false"
+          },
+          "Destination": "68ebc476-f199-4bc4-bf0b-22f96819f30b",
+          "Destination_Type": "EXECUTION_NODE"
+        }
+      },
+      "EXECUTION_NODE": [
+        {
+          "Node_Name": "e2800971-6763-45d3-9e26-8318aa873e01",
+          "Description": "SeniorCitizen",
+          "Attributes": "{\"optionType\":\"Execution\"}",
+          "Method": {
+            "Command": "insert into $framework.SeniorCitizen (fname,birth_date,incentive) values (:fname_var,ToDate(:birth_date_var),:incentive_var)"
+          },
+          "Source": "4eff0ba9-690d-4f08-84b5-200ead6436f5",
+          "Source_Type": "DECISION_NODE",
+          "Destination": "Stop",
+          "Destination_Type": "STOP_NODE"
+        },
+        {
+          "Node_Name": "68ebc476-f199-4bc4-bf0b-22f96819f30b",
+          "Description": "Adults",
+          "Attributes": "{\"optionType\":\"Execution\"}",
+          "Method": {
+            "Command": "insert into $framework.AdultCitizen (fname,birth_date,incentive) values (:fname_var,ToDate(:birth_date_var),:incentive_var)"
+          },
+          "Source": "4eff0ba9-690d-4f08-84b5-200ead6436f5",
+          "Source_Type": "DECISION_NODE_FALSE",
+          "Destination": "Stop",
+          "Destination_Type": "STOP_NODE"
+        }
+      ]
+    }
+  }
+]
