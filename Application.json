@@ -17,6 +17,15 @@
         "sections": [],
         "accessRoles": null,
         "privileges": null
+      },
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "second section",
+        "icon": "Alert Filled Circle",
+        "pageDefinitionId": "fb885358-d9f4-42db-9933-7d8defa6a59a",
+        "description": "asdas",
+        "sections": []
       }
     ]
   }
