@@ -534,20 +534,20 @@
             },
             "columns": [
               {
-                "field": "fname",
-                "name": "fname",
-                "headerName": "fname",
-                "dataType": "string",
+                "field": "sumid",
+                "name": "sumid",
+                "headerName": "sumid",
+                "dataType": "long",
                 "editable": false,
                 "isPrimaryKey": false,
                 "formattingStyle": "default",
                 "sortable": false
               },
               {
-                "field": "sumid",
-                "name": "sumid",
-                "headerName": "sumid",
-                "dataType": "long",
+                "field": "departure",
+                "name": "departure",
+                "headerName": "departure",
+                "dataType": "string",
                 "editable": false,
                 "isPrimaryKey": false,
                 "formattingStyle": "default",
