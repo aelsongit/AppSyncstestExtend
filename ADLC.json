@@ -3,5 +3,8 @@
   "pageDefinitions": [
     "app/f420a1db-ee36-4200-9a66-f8d4ec8212b8.json",
     "app/fb885358-d9f4-42db-9933-7d8defa6a59a.json"
+  ],
+  "workflows": [
+    "workflows/f420a1db-ee36-4200-9a66-f8d4ec8212b8.json"
   ]
 }
