@@ -8,23 +8,6 @@
     "gitUrl": "https://github.com/aelsongit/AppSyncstestExtend",
     "icon": "LogoIconOnlyAnalyticsComponent",
     "sections": [
-      {
-        "name": "section3",
-        "icon": "Alert Circle",
-        "pageDefinitionId": "f420a1db-ee36-4200-9a66-f8d4ec8212b8",
-        "description": "asdsad",
-        "sections": [],
-        "accessRoles": null,
-        "privileges": null
-      },
-      {
-        "accessRoles": null,
-        "privileges": null,
-        "name": "second section",
-        "icon": "Alert Filled Circle",
-        "pageDefinitionId": "fb885358-d9f4-42db-9933-7d8defa6a59a",
-        "description": "asdas",
-        "sections": []
-      }
+
     ]
   }
